@@ -1,6 +1,6 @@
 # Test long file path
 
-(deutsch)[./README_de.md]
+[deutsch](./README_de.md)
 
 <details>
   <summary>Table of Contents</summary>

@@ -1,6 +1,6 @@
 # Test langer Dateipfade
 
-(english)[./README.md]
+[english](./README.md)
 
 <!-- TABLE OF CONTENTS -->
 <details>
