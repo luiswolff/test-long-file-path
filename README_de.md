@@ -47,8 +47,8 @@ Dies öffnet das Fenster __Gruppenrichtlinie bearbeiten__.
 5. Geben Sie die folgenden Befehle ein, um die geänderten Gruppenrichtlinien anzuwenden
 
 ```
-> gpupdate /Ziel:Computer /Erzwingen
-> gpupdate /Ziel:Benutzer /zwingen
+> gpupdate /target:computer /force
+> gpupdate /target:user /force
 ```
 
 Jetzt können Sie eine Datei mit einem Pfad, der länger als 260 Zeichen ist, mit der __Eingabeaufforderung__ erstellen.
@@ -57,7 +57,7 @@ Jetzt können Sie eine Datei mit einem Pfad, der länger als 260 Zeichen ist, mi
 
 Nachdem Sie Windows so konfiguriert haben, dass es lange Dateipfade unterstützt, müssen Sie dies auch mit Ihrer lokalen Git-Installation tun.
 
-1. Drücken Sie die Windows-Taste und geben Sie `git bash` ein. Wenn Sie die Git Bash öffnen, wählen Sie die Option _Als Administrator ausführen__.
+1. Drücken Sie die Windows-Taste und geben Sie `git bash` ein. Wenn Sie die Git Bash öffnen, wählen Sie die Option __Als Administrator ausführen__.
 2. Geben Sie den folgenden Befehl ein
 
 ```
